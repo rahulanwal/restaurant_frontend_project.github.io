@@ -23,7 +23,7 @@ body {
 }
 
 header{ 
-    background: url(banner_background.jpg);
+    background: url(images/banner_background.jpg);
     background-repeat: no-repeat;
     background-size: 100% 200px;
 }
@@ -223,7 +223,7 @@ section h2 span{
 }
 
 .for_review{
-    background: url(review.jpg);
+    background: url(images/review.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
