@@ -12,30 +12,6 @@ body{
     padding-top: 0%;
 }
 
-/* hkggjk */
-/* .check:checked ~ .label .added {
-    opacity: 1;
-    position: absolute;
-    top: 12%;
-}
-.check:checked ~ .label {
-    border: 0.3rem solid darkgreen;
-    background-color: green;
-    color: white;
-}
-.label {
-    position: relative;
-    font-size: 2.1rem;
-    background-color: red;
-    color: white;
-    border: 0.3rem solid darkred;
-    padding: 1rem;
-    padding-right: 2rem;
-    border-radius: 0.6rem;
-    box-shadow: 0 2px 0.6rem black;
-} */
-  
-  /* Style the search field */
   form.example input[type=text] {
     padding: 10px;
     font-size: 17px; 
@@ -416,11 +392,6 @@ section h5{
         padding: 10px 0px;
     }
 
-    .sm-handle{
-        inline-direction: column;
-        padding: 10px 0px;
-    }
-
     .flex-align-right{
         margin-left: 0;
     }
@@ -603,6 +574,19 @@ section h5{
         padding: 8px 40px;
         border-radius: 1px;
     }
+
+    .sm-handle a{
+        background-color: rgb(125 125 125 / 25%);
+        padding: 6px 10px;
+        border-radius: 30px;
+        margin: 2px 5px;
+        text-decoration: none;
+        font-size: 0.80em;
+    }
+    
+    .sm-handle a i{
+        margin: 2px;
+    }
 }
 
 @media only screen and (max-width:500px) {
@@ -688,6 +672,19 @@ section h5{
         color: white;
         padding: 8px 40px;
         border-radius: 1px;
+    }
+
+    .sm-handle a{
+        background-color: rgb(125 125 125 / 25%);
+        padding: 2px 5px;
+        border-radius: 10px;
+        margin: 1px 3px;
+        text-decoration: none;
+        font-size: 0.60em;
+    }
+    
+    .sm-handle a i{
+        margin: 1px;
     }
 }
 
@@ -796,3 +793,4 @@ section h5{
         border-radius: 1px;
     }
 }
+
